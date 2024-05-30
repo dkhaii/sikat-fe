@@ -1,0 +1,22 @@
+.clock-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.day-container h2 {
+    font-family: 'PlusJakartaSansExtraLight';
+    font-size: 1.5rem;
+}
+
+.time-container h1 {
+    font-family: 'PlusJakartaSansBold';
+    font-size: 5rem;
+
+}
+
+.datatime-container {
+    margin-top: 2rem;
+    display: flex;
+    gap: 3rem;
+}

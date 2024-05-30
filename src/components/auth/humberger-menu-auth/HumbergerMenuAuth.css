@@ -1,0 +1,33 @@
+.humbergermenuauth-cotainer {
+    background-color: #ffffff;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: absolute;
+    right: 6rem;
+    top: 4rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .humbergermenuauth-cotainer ul {
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: #000000;
+  }
+  
+  .humbergermenuauth-cotainer ul li {
+    padding: .5rem;
+  }
+  
+  .humbergermenuauth-cotainer ul li a {
+    text-decoration: none;
+    color: #000000;
+  };

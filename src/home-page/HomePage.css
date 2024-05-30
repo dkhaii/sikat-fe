@@ -1,0 +1,15 @@
+.login-popup-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.login-popup-container.login-popup-container-show {
+    visibility: visible;
+    z-index: 2;
+}
+
+.login-popup-container.login-popup-container-hide {
+    visibility: hidden;
+    z-index: -2;
+}

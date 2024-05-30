@@ -1,0 +1,19 @@
+.bodyhome-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem;
+}
+
+.bodyhome-crewpit-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.bodyhome-stdday-mcu-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}

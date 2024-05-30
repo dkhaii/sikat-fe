@@ -1,0 +1,20 @@
+.dayshift-info-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.dayshift-info-container h1 {
+    font-family: 'PlusJakartaSansBold';
+    font-size: 5rem;
+}
+
+.dayshift-info-container .day-text {
+    color: #FCA311;
+}
+
+.crewshift-info-container h2 {
+    font-family: 'PlusJakartaSansLight';
+    font-stretch: 100%;
+    font-size: 2rem;
+    letter-spacing: .3rem;
+}

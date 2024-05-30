@@ -1,0 +1,59 @@
+.navbar-container {
+    background-color: #212529;
+    display: flex;
+    color: #ffffff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    justify-content: space-between;
+}
+
+.logos-container {
+    display: flex;
+    gap: 5rem;
+    align-content: center;
+    align-items: center;
+}
+
+.sikat-logo-container img {
+    width: 8rem;
+}
+
+.kpc-logos-container {
+    display: flex;
+    gap: 1rem;
+    align-content: center;
+    align-items: center;
+}
+
+.kpc-logo img {
+    width: 5rem;
+}
+
+.mo-logo img {
+    width: 12rem;
+}
+
+.info-container {
+    display: flex;
+    gap: 3rem;
+    align-content: center;
+    align-items: center;
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+    cursor: pointer;
+}
+
+.hamburger .line {
+    background-color: #ffffff;
+    padding-top: .05rem;
+    padding-bottom: .05rem;
+    padding-right: .8rem;
+    padding-left: .8rem;
+    
+}

@@ -1,0 +1,8 @@
+.homepage-header-container {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'PlusJakartaSansBold';
+  src: local('PlusJakartaSans-Bold'), url('./assets/fonts/PlusJakartaSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'PlusJakartaSansBoldItalic';
+  src: local('PlusJakartaSans-BoldItalic'), url('./assets/fonts/PlusJakartaSans-BoldItalic.ttf');
+}
+
+@font-face {
+  font-family: 'PlusJakartaSansExtraBold';
+  src: local('PlusJakartaSans-ExtraBold'), url('./assets/fonts/PlusJakartaSans-ExtraBold.ttf');
+}
+
+@font-face {
+  font-family: 'PlusJakartaSansExtraBoldItalic';
+  src: local('PlusJakartaSans-ExtraBoldItalic'), url('./assets/fonts/PlusJakartaSans-ExtraBoldItalic.ttf');
+}
+
+@font-face {
+  font-family: 'PlusJakartaSansExtraLight';
+  src: local('PlusJakartaSans-ExtraLight'), url('./assets/fonts/PlusJakartaSans-ExtraLight.ttf');
+}
+
+@font-face {
+  font-family: 'PlusJakartaSansExtraLightItalic';
+  src: local('PlusJakartaSans-ExtraLightItalic'), url('./assets/fonts/PlusJakartaSans-ExtraLightItalic.ttf');
+}
+
+@font-face {
+  font-family: 'PlusJakartaSansItalic';
+  src: local('PlusJakartaSans-Italic'), url('./assets/fonts/PlusJakartaSans-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'PlusJakartaSansLight';
+  src: local('PlusJakartaSans-Light'), url('./assets/fonts/PlusJakartaSans-Light.ttf');
+}
+
+@font-face {
+  font-family: 'PlusJakartaSansLightItalic';
+  src: local('PlusJakartaSans-LightItalic'), url('./assets/fonts/PlusJakartaSans-LightItalic.ttf');
+}
+
+@font-face {
+  font-family: 'PlusJakartaSansMedium';
+  src: local('PlusJakartaSans-Medium'), url('./assets/fonts/PlusJakartaSans-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'PlusJakartaSansMediumItalic';
+  src: local('PlusJakartaSans-MediumItalic'), url('./assets/fonts/PlusJakartaSans-MediumItalic.ttf');
+}
+
+@font-face {
+  font-family: 'PlusJakartaSansRegular';
+  src: local('PlusJakartaSans-Regular'), url('./assets/fonts/PlusJakartaSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'PlusJakartaSansSemiBold';
+  src: local('PlusJakartaSans-SemiBold'), url('./assets/fonts/PlusJakartaSans-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'PlusJakartaSansSemiBoldItalic';
+  src: local('PlusJakartaSans-SemiBoldItalic'), url('./assets/fonts/PlusJakartaSans-SemiBoldItalic.ttf');
+}
+
+* {
+  font-family: 'PlusJakartaSansRegular';
+  padding: 0;
+  margin: 0;
+  color: #212529;
+}

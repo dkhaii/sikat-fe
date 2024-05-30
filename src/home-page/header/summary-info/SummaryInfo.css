@@ -1,0 +1,13 @@
+.summaryinfo-container {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.summaryinfo-group-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
