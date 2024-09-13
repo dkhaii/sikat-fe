@@ -25,7 +25,7 @@ const HomePage = () => {
             : 'login-popup-container-hide'
         }`}
       >
-        <LoginPopUp onClose={handleCloseLoginOnClick} />
+        <LoginPopUp isOpen={showLoginPopUp} onClose={handleCloseLoginOnClick} />
       </div>
       <Navbar showLoginPopUp={handleShowLoginOnClick} />
       <HeaderHome />

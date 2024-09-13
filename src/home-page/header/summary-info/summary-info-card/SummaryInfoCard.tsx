@@ -1,6 +1,6 @@
-import React from 'react';
+// import React from 'react';
 import './SummaryInfoCard.css';
-import { TextColor } from '../../../../components/common/enums/enums';
+import { TextColor } from '../../../../common/enums/enums';
 
 type SummaryInforCardProps = {
   total: number;

@@ -6,3 +6,19 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
+@media (max-width: 1080px) {
+    .homepage-header-container {
+        /* display: flex; */
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .clock-container {
+        order: -1;
+    }
+
+    .crew-summary-container {
+        margin-top: 5rem;
+    }
+}

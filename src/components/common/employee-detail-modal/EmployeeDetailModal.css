@@ -1,0 +1,35 @@
+.modal-body-container {
+    width: 100%;
+}
+.modal-nameheading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.modal-empname-container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.modal-empid-container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.modal-empdetail-container {
+    display: flex;
+    gap: 5rem;
+    padding: 2rem;
+}
+.modal-empdetailtitle-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.modal-empdetailresult-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

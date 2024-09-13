@@ -1,0 +1,34 @@
+.employees-detail-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.employees-detail-title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.employees-detail-title-container .employees-detail-title-name {
+    font-family: 'PlusJakartaSansBold';
+    font-size: 1.4rem;
+}
+
+.employees-detail-info-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.employees-detail-info-title {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.employees-detail-info-data {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

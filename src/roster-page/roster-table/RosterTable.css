@@ -1,0 +1,46 @@
+/* .rostertable-month-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.rostertable-month-container h1 {
+    font-family: 'PlusJakartaSansBold';
+} */
+
+/* .rostertable-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .rostertable-month-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .rostertable-month-container h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  } */
+
+  .rostertable-container {
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+  }
+  
+  .rostertable-container table {
+    width: auto; /* Adjust table width based on content */
+  }
+  
+  .rostertable-container th,
+  .rostertable-container td {
+    white-space: nowrap; /* Prevent text wrapping */
+    vertical-align: top; /* Align text to top */
+    padding: 8px; /* Adjust padding */
+  }
+  
+  .rostertable-container th {
+    background-color: #f2f2f2; /* Light gray background for headers */
+  }
+  

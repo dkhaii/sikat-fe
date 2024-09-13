@@ -1,0 +1,115 @@
+.leaveplan-periode-info-dayoff {
+    background-color: #4395cc;
+  }
+
+  .leaveplan-periode-info-annualleave {
+    background-color: #ffe51e;
+  }
+
+  .leaveplan-periode-info-outstandingleave {
+    background-color: #ffa4de;
+  }
+
+  .leaveplan-periode-info-sick {
+    background-color: #52ff27;
+  }
+
+  .leaveplan-periode-info-training {
+    background-color: #b85bff;
+  }
+
+  .leaveplan-periode-info-mcu {
+    background-color: #ff6600;
+  }
+
+  .leaveplan-periode-info-lwop {
+    background-color: #84a500;
+  }
+
+  .leaveplan-periode-info-lwp {
+    background-color: #0004ff;
+  }
+
+  .leaveplan-periode-info-menemanirujukan {
+    background-color: #81002b;
+  }
+
+  .leaveplan-periode-info-sqr {
+    background-color: #9f9f9f;
+  }
+
+  .leaveplan-periode-info-longleave {
+    background-color: #ff0090;
+  }
+  
+  .leaveplan-periode-info-pending {
+    background-color: #FF9432;
+  }
+
+  .leaveplan-periode-info-booking-dayoff {
+    outline: .15rem solid #4395cc;
+    outline-offset: -5px;
+    /* border-radius: 10rem; */
+  }
+  .leaveplan-periode-info-booking-annualleave {
+    outline: .15rem solid #ffe51e;
+    outline-offset: -5px;
+    /* border-radius: 10rem; */
+
+  }
+  .leaveplan-periode-info-booking-outstandingleave {
+    outline: .15rem solid #ffa4de;
+    outline-offset: -5px;
+    /* border-radius: 10rem; */
+
+  }
+  .leaveplan-periode-info-booking-sick {
+    outline: .15rem solid #52ff27;
+    outline-offset: -5px;
+    /* border-radius: 10rem; */
+
+  }
+  .leaveplan-periode-info-booking-training {
+    outline: .15rem solid #b85bff;
+    outline-offset: -5px;
+    /* border-radius: 10rem; */
+
+  }
+  .leaveplan-periode-info-booking-mcu {
+    outline: .15rem solid #ff6600;
+    outline-offset: -5px;
+    /* border-radius: 10rem; */
+
+  }
+  .leaveplan-periode-info-booking-lwop {
+    outline: .15rem solid #84a500;
+    outline-offset: -5px;
+    /* border-radius: 10rem; */
+
+  }
+  .leaveplan-periode-info-booking-lwp {
+    outline: .15rem solid #0004ff;
+    outline-offset: -5px;
+    /* border-radius: 10rem; */
+
+  }
+  .leaveplan-periode-info-booking-menemanirujukan {
+    outline: .15rem solid #81002b;
+    outline-offset: -5px;
+    /* border-radius: 10rem; */
+
+  }
+  .leaveplan-periode-info-booking-sqr {
+    outline: .15rem solid #9f9f9f;
+    outline-offset: -5px;
+    /* border-radius: 10rem; */
+
+  }
+
+  .leaveplan-periode-info-booking-longleave {
+    outline: .15rem solid #ff0090;
+    outline-offset: -5px;
+    /* border-radius: 10rem; */
+
+  }
+  

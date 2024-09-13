@@ -1,0 +1,120 @@
+.roster-header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20rem;
+    margin-bottom: 2rem;
+}
+
+.roster-shiftinfo-container {
+    display: flex;
+}
+
+.roster-shiftinfo-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.roster-shiftinfo-dayshift-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.roster-shiftinfo-dayshift-container h1 {
+    font-family: 'PlusJakartaSansBold';
+    font-size: .8rem;
+}
+
+.roster-shiftinfo-dayshift {
+    background-color: #FF9432;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: .2rem;
+    color: #212529;
+    font-family: 'PlusJakartaSansExtraBold';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.roster-shiftinfo-nightshift-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.roster-shiftinfo-nightshift-container h1 {
+    font-family: 'PlusJakartaSansBold';
+    font-size: .8rem;
+}
+
+.roster-shiftinfo-nightshift {
+    background-color: #003583;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: .2rem;
+    color: #fff;
+    font-family: 'PlusJakartaSansExtraBold';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.roster-shiftinfo-offshift-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.roster-shiftinfo-offshift-container h1 {
+    font-family: 'PlusJakartaSansBold';
+    font-size: .8rem;
+}
+
+.roster-shiftinfo-offshift {
+    background-color: #9D9D9D;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: .2rem;
+    color: #212529;
+    font-family: 'PlusJakartaSansExtraBold';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.roster-title-container h1 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    font-family: 'PlusJakartaSansExtraBold';
+    font-size: 2rem;
+}
+
+.roster-title-container span {
+    font-family: 'PlusJakartaSansExtraBold';
+}
+
+.roster-shiftinfo-with-button {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+@media (max-width: 1080px) {
+    .roster-header-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .roster-title-container {
+        order: -1;
+    }
+
+    .roster-back-container {
+        margin-top: 3rem;
+    }
+}

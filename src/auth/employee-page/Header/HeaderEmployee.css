@@ -1,0 +1,16 @@
+.headeremployee-container {
+    display: flex;
+    padding: 1rem 4rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headeremployee-action-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.headeremployee-title-container h1 {
+    font-family: 'PlusJakartaSansBold';
+    font-size: 2rem;
+}

@@ -1,4 +1,4 @@
-.humbergermenuauth-cotainer {
+.humbergermenuauth-container {
     background-color: #ffffff;
     padding-right: 2rem;
     padding-left: 2rem;
@@ -8,9 +8,10 @@
     right: 6rem;
     top: 4rem;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    z-index: 5;
   }
   
-  .humbergermenuauth-cotainer ul {
+  .humbergermenuauth-container ul {
     list-style: none;
     list-style-type: none;
     margin: 0;
@@ -23,11 +24,11 @@
     color: #000000;
   }
   
-  .humbergermenuauth-cotainer ul li {
+  .humbergermenuauth-container ul li {
     padding: .5rem;
   }
   
-  .humbergermenuauth-cotainer ul li a {
+  .humbergermenuauth-container ul li a {
     text-decoration: none;
     color: #000000;
   };

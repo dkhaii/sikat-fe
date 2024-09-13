@@ -1,5 +1,6 @@
-import React from 'react';
+// import React from 'react';
 import './HumbergerMenu.css';
+import { Link } from 'react-router-dom';
 
 type HumbergerMenuProps = {
   showLoginPopUp: () => void;
@@ -11,7 +12,6 @@ const HumburgerMenu = ({ showLoginPopUp }: HumbergerMenuProps) => {
       <ul>
         <li>
           <a
-            // href="#"
             onClick={(e) => {
               e.preventDefault();
               showLoginPopUp();
@@ -21,7 +21,7 @@ const HumburgerMenu = ({ showLoginPopUp }: HumbergerMenuProps) => {
           </a>
         </li>
         <li>
-          <a>Shift Roster</a>
+          <Link to={'/roster-calendar'}>Shift Roster</Link>
         </li>
       </ul>
     </div>

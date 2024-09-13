@@ -55,5 +55,30 @@
     padding-bottom: .05rem;
     padding-right: .8rem;
     padding-left: .8rem;
+}
+
+.navbarauth-updatedatinfo-container h6 {
+    color: #fff;
+    font-size: .8rem;
+}
+
+.navbarauth-timestampinfo-container h6 {
+    color: #fff;
+    font-size: .8rem;
+}
+
+.nvabarauth-hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+    cursor: pointer;
+}
+
+.navbarauth-hamburger .navbarauth-line {
+    background-color: #ffffff;
+    padding-top: .05rem;
+    padding-bottom: .05rem;
+    padding-right: .8rem;
+    padding-left: .8rem;
     
 }

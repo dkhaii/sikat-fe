@@ -1,0 +1,305 @@
+.leaveplan-header-container {
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    /* position: relative; */
+    /* position: sticky;
+    top: 0; */
+    z-index: 1000; /* Sesuaikan nilai ini jika perlu */
+    background-color: #fff;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.sticky-leaveplan-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.leaveplan-input-container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.leaveplan-title-container h1 {
+    font-family: 'PlusJakartaSansBold';
+    font-size: 3rem;
+}
+
+.leaveplan-title-container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);}
+
+.leaveplan-cutiinfo-approved {
+    background-color: #14BA6D;
+    padding: 1rem;
+}
+
+.leaveplan-cutiinfo-pending {
+    background-color: #FF9432;
+    padding: 1rem;
+}
+
+.leaveplan-cutiinfo-approved-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leaveplan-cutiinfo-pending-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leaveplan-header-cutiinfo {
+    display: flex;
+    gap: 1rem;
+    /* margin-bottom: 1.5rem; */
+}
+
+.leaveplan-cutiinfo-dayoff {
+    background-color: #4395cc;
+    padding: .5rem;
+
+}
+
+.leaveplan-cutiinfo-annualleave {
+    background-color: #ffe51e;
+    padding: .5rem;
+
+}
+
+.leaveplan-cutiinfo-outstandingleave {
+    background-color: #ffa4de;
+    padding: .5rem;
+
+}
+
+.leaveplan-cutiinfo-sick {
+    background-color: #52ff27;
+    padding: .5rem;
+
+}
+
+.leaveplan-cutiinfo-training {
+    background-color: #b85bff;
+    padding: .5rem;
+
+}
+
+.leaveplan-cutiinfo-mcu {
+    background-color: #ff6600;
+    padding: .5rem;
+
+}
+
+.leaveplan-cutiinfo-lwop {
+    background-color: #84a500;
+    padding: .5rem;
+
+}
+
+.leaveplan-cutiinfo-lwp {
+    background-color: #0004ff;
+    padding: .5rem;
+
+}
+
+.leaveplan-cutiinfo-menemanirujukan {
+    background-color: #81002b;
+    padding: .5rem;
+
+}
+
+.leaveplan-cutiinfo-sqr {
+    background-color: #9f9f9f;
+    padding: .5rem;
+
+}
+
+.leaveplan-cutiinfo-longleave {
+    background-color: #ff0090;
+    padding: .5rem;
+
+}
+
+.leaveplan-cutiinfo-dayoff-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leaveplan-cutiinfo-dayoff-container h1 {
+    font-size: .65rem;
+    text-align: center;
+}
+
+.leaveplan-cutiinfo-annualleave-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leaveplan-cutiinfo-annualleave-container h1 {
+    font-size: .65rem;
+    text-align: center;
+
+}
+
+.leaveplan-cutiinfo-outstandingleave-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leaveplan-cutiinfo-outstandingleave-container h1 {
+    font-size: .65rem;
+    text-align: center;
+
+}
+
+.leaveplan-cutiinfo-sick-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leaveplan-cutiinfo-sick-container h1 {
+    font-size: .65rem;
+    text-align: center;
+
+}
+
+.leaveplan-cutiinfo-training-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leaveplan-cutiinfo-training-container h1 {
+    font-size: .65rem;
+    text-align: center;
+
+}
+
+.leaveplan-cutiinfo-mcu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leaveplan-cutiinfo-mcu-container h1 {
+    font-size: .65rem;
+    text-align: center;
+
+}
+
+.leaveplan-cutiinfo-lwop-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leaveplan-cutiinfo-lwop-container h1 {
+    font-size: .65rem;
+    text-align: center;
+
+}
+
+.leaveplan-cutiinfo-lwp-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leaveplan-cutiinfo-lwp-container h1 {
+    font-size: .65rem;
+    text-align: center;
+
+}
+
+.leaveplan-cutiinfo-menemanirujukan-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leaveplan-cutiinfo-menemanirujukan-container h1 {
+    font-size: .65rem;
+    text-align: center;
+
+}
+
+.leaveplan-cutiinfo-sqr-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leaveplan-cutiinfo-sqr-container h1 {
+    font-size: .65rem;
+    text-align: center;
+
+}
+
+.leaveplan-cutiinfo-longleave-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leaveplan-cutiinfo-longleave-container h1 {
+    font-size: .65rem;
+    text-align: center;
+
+}
+
+.legend-cutiinfo-container-bottom {
+    margin-top: 1rem;
+    display: flex;
+    align-items: end;
+    gap: 1rem;
+}
+.legend-cutiinfo-container-top {
+    display: flex;
+    align-items: end;
+    gap: 1rem;
+}
+
+@media (max-width: 1080px) {
+    .leaveplan-header-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .leaveplan-title-container h1{
+        font-size: 2rem;
+        /* display: none; */
+    }
+
+    .leaveplan-title-hide {
+        display: none;
+    }
+
+    .leaveplan-title-container {
+        top: 5rem;
+        order: -1;
+    }
+
+
+    .legend-cutiinfo-container {
+        display: flex;
+        gap: 1rem;
+    }
+}

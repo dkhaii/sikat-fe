@@ -1,0 +1,27 @@
+.archive-employee-modalbody-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.archive-employee-modalbody-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.archive-employee-modalbody-info-container .archive-employee-modalbody-info-empname {
+    font-family: 'PlusJakartaSansBold';
+    font-size: 1.1rem;
+}
+
+.archive-employee-modalbody-datepick-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.archive-employee-modalbody-datepick-container .archive-employee-modalbody-datepick-confirm-message {
+    color: #D7263D;
+}

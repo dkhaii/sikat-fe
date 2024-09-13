@@ -11,12 +11,33 @@
 
 .time-container h1 {
     font-family: 'PlusJakartaSansBold';
-    font-size: 5rem;
+    font-size: 6rem;
 
 }
 
 .datatime-container {
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     display: flex;
     gap: 3rem;
+}
+
+.legend-info-lateness {
+    display: flex;
+    gap: 2rem;
+}
+
+.legend-info-lateness-present {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.legend-info-lateness-late {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.legend-info-lateness-absent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

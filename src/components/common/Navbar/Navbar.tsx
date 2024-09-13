@@ -1,6 +1,5 @@
 import React from 'react';
 import sikatLogo from '/sikat-logo.png';
-import kpcLogo from '/kpc-logo.png';
 import moLogo from '/mo-logo.png';
 import './Navbar.css';
 import HumburgerMenu from '../humberger-menu/HumburgerMenu';
@@ -22,16 +21,12 @@ const Navbar = ({ showLoginPopUp }: NavbarProps) => {
         <div className="sikat-logo-container">
           <img src={sikatLogo} alt="sikat-logo" />
         </div>
-        <div className="kpc-logos-container">
-          <div className="kpc-logo">
-            <img src={kpcLogo} alt="kpc-logo" />
-          </div>
-          <div className="mo-logo">
-            <img src={moLogo} alt="mo-logo" />
-          </div>
-        </div>
+        <div className="kpc-logos-container"></div>
       </div>
       <div className="info-container">
+        <div className="mo-logo">
+          <img src={moLogo} alt="mo-logo" />
+        </div>
         <div className="humberger-container">
           <div className="hamburger" onClick={toggleMenu}>
             {showMenu ? (

@@ -10,10 +10,10 @@ const HeaderHome = () => {
       <div>
         <ShiftInfo />
       </div>
-      <div>
+      <div className="clock-container">
         <Clock />
       </div>
-      <div>
+      <div className='crew-summary-container'>
         <SummaryInfo />
       </div>
     </section>

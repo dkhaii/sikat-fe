@@ -8,8 +8,12 @@
     font-size: 5rem;
 }
 
-.dayshift-info-container .day-text {
+.day-text {
     color: #FCA311;
+}
+
+.night-text {
+    color: #002855;
 }
 
 .crewshift-info-container h2 {

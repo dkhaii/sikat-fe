@@ -17,3 +17,13 @@
     justify-content: center;
     gap: 1rem;
 }
+
+@media (max-width: 1080px) {
+    .bodyhome-crewpit-container {
+        flex-direction: column;
+    }
+
+    .bodyhome-stdday-mcu-container {
+        flex-direction: column;
+    }
+}
